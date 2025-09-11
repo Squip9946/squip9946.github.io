@@ -19,6 +19,7 @@ body {
 }
 svg {
     height: 3.5rem;
+    background-color: #1c0f19;
 }
 .socials-container {
     display: flex;
