@@ -1,0 +1,19 @@
+* {
+    font-family: monospace;
+    font-size: 14px;
+    color: #ba3ca0;
+}
+body {
+    background-color: #080407;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 50rem;
+    border: 5px solid #0f060d;
+
+    background-color: #0a0509;
+}
+.older{
+    font-size: 10px;
+}
