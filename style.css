@@ -10,6 +10,7 @@ body {
     margin: 0 auto;
     text-align: center;
     width: 50rem;
+    max-width: 100vw;
     border: 5px solid #0f060d;
 
     background-color: #0a0509;
