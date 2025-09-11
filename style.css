@@ -17,6 +17,17 @@ body {
 
     background-color: #0a0509;
 }
+svg {
+    max-height: 40px;
+}
+.socials-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.socials-container-partial {
+    display: flex;
+    max-height: 40px;
+}
 .older{
     font-size: 0.8rem;
 }
