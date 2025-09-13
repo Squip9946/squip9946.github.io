@@ -50,7 +50,6 @@ a {
 }
 a :visited{
     font-size: 1em;
-    color: var(--color);
 }
 svg {
     height: 3.5em;
