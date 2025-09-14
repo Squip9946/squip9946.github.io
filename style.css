@@ -5,9 +5,8 @@
     --svg-background-color: #1c0f19;
     --color: #d645b8;
     --color2: ; /* TODO add value */
-    --link-hover: ; /* TODO add value */
-    --link-visited: ; /* TODO add value */
-    --link-hover-visited: ; /* TODO add value */
+    --link-hover: #f562d6;
+    --link-visited: #ab2790; /* TODO add value */
     --border-color: #0f060d;
     --border-color2: #170914; /* TODO add value */
     --border-color3: ; /* TODO add value */
@@ -48,18 +47,22 @@ h6 {
 a {
     font-size: 1em;
 }
-a :visited{
-    font-size: 1em;
-}
 svg {
     height: 3.5em;
     background-color: var(--svg-background-color);
 }
+input[name="page"] {
+    display: none;
+}
 
 .sidebar-item {
     text-align: center;
+    text-decoration: underline;
 
     justify-content: space-evenly;
+}
+.sidebar-item h3:hover {
+    color: var(--link-hover);
 }
 .vertical-hr {
     background-color: var(--border-color2);
@@ -69,9 +72,8 @@ svg {
     margin: 0;
 }
 
-#container,
-#container a:visited {
-    font-family: monospace;
+#container {
+    font-family: monospace; /*add option for DM Mono*/
     font-size: 16px;
     color: var(--color);
     background-color: var(--background-color2);
@@ -81,6 +83,12 @@ svg {
     border: 0.5em solid var(--border-color);
     width: 70em;
     margin: 8px auto;
+}
+#container a:visited {
+    color: var(--link-visited);
+}
+#container a:hover {
+    color: var(--link-hover);
 }
 #main {
     display: flex;
@@ -116,10 +124,7 @@ svg {
     border-bottom: 0.33em solid var(--border-color2);
     width: 100%;
 }
-#header-left {
-    align-items: center;
-}
-#header-right {
+#header-left, #header-right {
     align-items: center;
 }
 #footer {
