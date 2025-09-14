@@ -162,7 +162,7 @@ input[name="page"] {
 #projects-selector:checked ~ #projects {
     display: block;
 }
-#link-selector:checked ~ #links {
+#links-selector:checked ~ #links {
     display: block;
 }
 #articles-findings-etc-selector:checked ~ #articles-findings-etc {
