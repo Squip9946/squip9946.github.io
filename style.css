@@ -172,7 +172,7 @@ input[name="page"] {
 #articles-findings-etc-selector:checked ~ #articles-findings-etc {
     display: block;
 }
-#vod-music-creators-etc-selector:checked ~ #vod-music-creators-etc {
+#videos-music-creators-etc-selector:checked ~ #videos-music-creators-etc {
     display: block;
 }
 #featured-webbed-sites-selector:checked ~ #featured-webbed-sitess {
