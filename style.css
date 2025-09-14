@@ -1,7 +1,7 @@
 :root {
     --background-color: #080407;
     --background-color2: #0a0509;
-    --background-color3: ; /* TODO add value */
+    --background-color3: #0c060b;
     --svg-background-color: #1c0f19;
     --color: #d645b8;
     --link: #d645b8;
@@ -101,6 +101,8 @@ input[name="page"] {
     padding: 1em;
 }
 #sidebar {
+    background-color: var(--background-color3);
+
     display: flex;
     flex-direction: column;
     flex-shrink: 10;
@@ -119,6 +121,8 @@ input[name="page"] {
     margin: 0;
 }
 #header {
+    background-color: var(--background-color3);
+
     display: flex;
     justify-content: space-between;
     padding: 0 1.5em;
@@ -131,7 +135,8 @@ input[name="page"] {
 }
 #footer {
     text-align: center;
-    
+    background-color: var(--background-color3);
+
     box-sizing: border-box;
     border-top: 0.33em solid var(--border-color2);
     width: 100%;
@@ -174,8 +179,5 @@ input[name="page"] {
     display: block;
 }
 #contact-me-selector:checked ~ #contact-me {
-    display: block;
-}
-#webbed-site-infos-selector:checked ~ #webbed-site-infos {
     display: block;
 }
