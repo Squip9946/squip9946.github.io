@@ -5,6 +5,7 @@
     --svg-background-color: #1c0f19;
     --color: #d645b8;
     --color2: ; /* TODO add value */
+    --link: #d645b8;
     --link-hover: #f562d6;
     --link-visited: #ab2790; /* TODO add value */
     --border-color: #0f060d;
@@ -84,6 +85,9 @@ input[name="page"] {
     width: 70em;
     margin: 8px auto;
 }
+#container a:link {
+    color: var(--link);
+}
 #container a:visited {
     color: var(--link-visited);
 }
@@ -132,4 +136,11 @@ input[name="page"] {
     box-sizing: border-box;
     border-top: 0.33em solid var(--border-color2);
     width: 100%;
+}
+
+#home {
+    display: none;
+}
+#home-selector:checked ~ #home {
+    display: block;
 }
