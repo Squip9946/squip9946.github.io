@@ -138,9 +138,45 @@ input[name="page"] {
     width: 100%;
 }
 
-#home {
+#main-page > div {
     display: none;
 }
 #home-selector:checked ~ #home {
+    display: block;
+}
+#more-me-selector:checked ~ #more-me {
+    display: block;
+}
+#faq-selector:checked ~ #faq {
+    display: block;
+}
+#sexual-interests-selector:checked ~ #sexual-interests {
+    display: block;
+}
+#mental-health-selector:checked ~ #mental-health {
+    display: block;
+}
+#philosophy-takes-selector:checked ~ #philosophy-takes {
+    display: block;
+}
+#projects-selector:checked ~ #projects {
+    display: block;
+}
+#link-selector:checked ~ #links {
+    display: block;
+}
+#articles-findings-etc-selector:checked ~ #articles-findings-etc {
+    display: block;
+}
+#vod-music-creators-etc-selector:checked ~ #vod-music-creators-etc {
+    display: block;
+}
+#featured-webbed-sites-selector:checked ~ #featured-webbed-sitess {
+    display: block;
+}
+#contact-me-selector:checked ~ #contact-me {
+    display: block;
+}
+#webbed-site-infos-selector:checked ~ #webbed-site-infos {
     display: block;
 }
