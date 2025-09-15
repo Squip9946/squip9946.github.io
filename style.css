@@ -166,7 +166,7 @@ input[name="page"] {
 #mental-health-selector:checked ~ #mental-health {
     display: block;
 }
-#philosophy-takes-selector:checked ~ #philosophy-takes {
+#can-i-cancel-myself-selector:checked ~ #can-i-cancel-myself {
     display: block;
 }
 #projects-selector:checked ~ #projects {
