@@ -1,14 +1,14 @@
 :root {
-    --background-color: #080407;
-    --background-color2: #0a0509;
-    --background-color3: #0c060b;
+    --background-color: #080006;
+    --background-color2: #0a0008;
+    --background-color3: #0d000a;
     --svg-background-color: #1c0f19;
-    --color: #d645b8;
-    --link: #d645b8;
-    --link-hover: #f562d6;
-    --link-visited: #ab2790;
-    --border-color: #0f060d;
-    --border-color2: #170914;
+    --color: #f213c4;
+    --link: #db00c5;
+    --link-hover: #ff21e9;
+    --link-visited: #d000db;
+    --border-color: #140010;
+    --border-color2: #1c0016;
 }
 body {
     background-color: var(--background-color);
@@ -61,6 +61,9 @@ input[name="page"] {
     text-decoration: underline;
 
     justify-content: space-evenly;
+}
+.sidebar-item h3 {
+    color: var(--link);
 }
 .sidebar-item h3:hover {
     color: var(--link-hover);
